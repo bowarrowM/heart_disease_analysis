@@ -1,6 +1,6 @@
 # Heart Disease Analysis & Prediction Project
 
-### Note: This README is a work-in-progress. Feedback and suggestions are welcome!
+### Note: This PROJECT and README is a work-in-progress. Feedback and suggestions are welcome!
 
 This is a Python-based data analysis and machine learning project using the UCI Heart Disease Dataset (from Kaggle).
 The project covers data preprocessing, exploratory data analysis (EDA), visualization, SQL database integration (PostgreSQL), and predictive modeling.
