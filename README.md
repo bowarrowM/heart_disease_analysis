@@ -23,12 +23,17 @@ Model Training & Evaluation: predictive modeling with performance metrics and co
 
 ## Project Structure
 ├── .env                  # Environment variables / database credentials (gitignored)
+
 ├── all_imports.py        # Library imports and dataset loading
+
 ├── data_analysis.py      # EDA: info, shape, nulls, summary stats
+
 ├── plots_visualization.py# Visualizations for EDA
+
 ├── sqlDB_connection.py   # PostgreSQL database connection (optional)
+
 ├── model.py              # Preprocessing, training, evaluation, confusion matrix
-├── README.md             # Project overview and instructions
+
 └── requirements.txt      # Required Python packages
 
 ## Setup Instructions
