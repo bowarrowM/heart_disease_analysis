@@ -49,8 +49,8 @@ cd heart-disease-project
 
 * pip install -r requirements.txt 
 
-*or install with the package manager of your choice.
-### All the libraries used: pip install pandas numpy matplotlib seaborn scikit-learn psycopg2-binary python-dotenv sqlalchemy
+* or install with the package manager of your choice.
+* (All the libraries used: pandas numpy matplotlib seaborn scikit-learn psycopg2-binary python-dotenv sqlalchemy)
 
 
 Open the project in your preferred IDE (VS Code, PyCharm, etc.)
