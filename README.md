@@ -39,8 +39,9 @@ Model Training & Evaluation: predictive modeling with performance metrics and co
 ## Setup Instructions
 
 ### Clone the repository
+from terminal/powershell (bash):
 
-git clone <repo-url>
+git clone repo-url
 
 cd heart-disease-project
 
