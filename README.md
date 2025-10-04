@@ -1,6 +1,6 @@
 # Heart Disease Analysis & Prediction Project
 
-### Note: This PROJECT and README is a work-in-progress. Feedback and suggestions are welcome!
+### Note: This PROJECT and README are all to be updated. Feedback and suggestions are welcomed and appreciated! Thank you.
 
 This is a Python-based data analysis and machine learning project using the UCI Heart Disease Dataset (from Kaggle).
 The project covers data preprocessing, exploratory data analysis (EDA), visualization, SQL database integration (PostgreSQL), and predictive modeling.
@@ -41,12 +41,16 @@ Model Training & Evaluation: predictive modeling with performance metrics and co
 ### Clone the repository
 
 git clone <repo-url>
+
 cd heart-disease-project
 
 
 ### Install dependencies
 
-pip install -r requirements.txt
+* pip install -r requirements.txt 
+
+*or install with the package manager of your choice.
+### All the libraries used: pip install pandas numpy matplotlib seaborn scikit-learn psycopg2-binary python-dotenv sqlalchemy
 
 
 Open the project in your preferred IDE (VS Code, PyCharm, etc.)
