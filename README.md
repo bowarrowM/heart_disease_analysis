@@ -21,6 +21,31 @@ Database Integration: optional PostgreSQL connection for storing/querying the da
 
 Model Training & Evaluation: predictive modeling with performance metrics and confusion matrix
 
+## Model Results and Project Conclusion
+
+### Note:
+   ""
+   Missing values in multiple feature categories: 
+   - ca, 611, (~66%) | slope, 309, (~33%) | thal, 486, (~53%) | trestbps, chol, thalch, oldpeak, exang : under 10%
+   - Solutions: ca was dropped, mode and median techniques were used to handle other vals with high missing values.
+   ""
+
+### model_results = """
+- Train shape: (736, 20)
+- Test shape: (184, 20)
+- Accuracy: 0.57
+- F1 Score: 0.55
+### Classification Report: For all  levels of heart disease stated in the dataset (0 : no disease, 1-4: disease)
+  0: precision 0.75, recall 0.83, f1 0.79
+  1: precision 0.53, recall 0.51, f1 0.52
+  2: precision 0.22, recall 0.18, f1 0.20
+  3: precision 0.26, recall 0.29, f1 0.27
+  4: precision 0.00, recall 0.00, f1 0.00
+  
+### Top 10 Features by Importance:
+  age, thalch, oldpeak, chol, trestbps, dataset_Hungary, exang_True, restecg_normal, thal_normal, cp_atypical angina
+  
+
 ## Project Structure
 ├── .env                  # Environment variables / database credentials (gitignored)
 
