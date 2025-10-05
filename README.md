@@ -28,9 +28,10 @@ Model Training & Evaluation: predictive modeling with performance metrics and co
    Missing values in multiple feature categories: 
    - ca, 611, (~66%) | slope, 309, (~33%) | thal, 486, (~53%) | trestbps, chol, thalch, oldpeak, exang : under 10%
    - Solutions: ca was dropped, mode and median techniques were used to handle other vals with high missing values.
+  
    ""
 
-### model_results = """
+### model_results = 
 - Train shape: (736, 20)
 - Test shape: (184, 20)
 - Accuracy: 0.57
